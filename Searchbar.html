@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search bar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="flex justify-center mt-12">
+        <form class="w-full max-w-lg">
+            <input type="text" 
+            placeholder="search..."
+            class="px-4 py-2 bg-gray-200 rounded-lg outline-none w-full">
+        </form>
+    </div>
+    <div>
+        <table class="border-2 m-auto mt-6 w-[500px] border-slate-600">
+            <thead>
+                <tr>
+                    <th class="border border-slate-600" rowspan="2">Subject</th>
+                    <th class="border border-slate-600" colspan="2">First Term</th>
+                    <th class="border border-slate-600" colspan="2">Second Term</th>
+                    <th class="border border-slate-600" rowspan="2">Total</th>
+                </tr>
+                <tr>
+                    <th class="border border-slate-600">20</th>
+                    <th class="border border-slate-600">30</th>
+                    <th class="border border-slate-600">20</th>
+                    <th class="border border-slate-600">30</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="border border-slate-600">Math</td>
+                    <td class="border border-slate-600">19</td>
+                    <td class="border border-slate-600">30</td>
+                    <td class="border border-slate-600">20</td>
+                    <td class="border border-slate-600">28</td>
+                    <td class="border border-slate-600">97</td>
+                </tr>
+
+                <tr>
+                    <td class="border border-slate-600 bg-slate-200">Science</td>
+                    <td class="border border-slate-600 bg-slate-200">20</td>
+                    <td class="border border-slate-600 bg-slate-200">30</td>
+                    <td class="border border-slate-600 bg-slate-200">20</td>
+                    <td class="border border-slate-600 bg-slate-200">29</td>
+                    <td class="border border-slate-600 bg-slate-200">99</td>
+                </tr>
+
+                <tr>
+                    <td class="border border-slate-600">Biology</td>
+                    <td class="border border-slate-600">19</td>
+                    <td class="border border-slate-600">30</td>
+                    <td class="border border-slate-600">18</td>
+                    <td class="border border-slate-600">27</td>
+                    <td class="border border-slate-600">92</td>
+                </tr>
+
+                <tr>
+                    <td class="border border-slate-600 bg-slate-200">Chemistry</td>
+                    <td class="border border-slate-600 bg-slate-200">19</td>
+                    <td class="border border-slate-600 bg-slate-200">30</td>
+                    <td class="border border-slate-600 bg-slate-200">19</td>
+                    <td class="border border-slate-600 bg-slate-200">30</td>
+                    <td class="border border-slate-600 bg-slate-200">98</td>
+                </tr>
+
+                <tr>
+                    <td class="border border-slate-600">Physics</td>
+                    <td class="border border-slate-600">19</td>
+                    <td class="border border-slate-600">30</td>
+                    <td class="border border-slate-600">20</td>
+                    <td class="border border-slate-600">29</td>
+                    <td class="border border-slate-600">99</td>
+                </tr>
+
+                <tr>
+                    <th class="border border-slate-600">Total</th>
+                    <td class="border border-slate-600 text-center font-semibold" colspan="5">497</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
